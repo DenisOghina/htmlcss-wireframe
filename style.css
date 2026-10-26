@@ -1,1 +1,36 @@
 /* Wireframe: lavora con l'inspector aperto, prova lì e poi riporta qui il codice */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 512px;
+    border: dashed 1px gray;
+}
+
+.header {
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+
+.content {
+    padding: 20px 40px;
+}
+
+.card {
+    min-height: 160px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.card h2 {
+    margin-bottom: 4px;
+}
+
+.footer {
+    padding: 10px 20px;
+    border-top: 2px solid black;
+}
